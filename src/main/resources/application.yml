@@ -9,12 +9,12 @@ spring:
     url: postgres://xvqaqfvrifxado:258aa2a935358e178557a050972224c88e0cf6a66b760d1ba88e40357e4415d5@ec2-54-91-188-254.compute-1.amazonaws.com:5432/d386qdnfuou9n3
     username: xvqaqfvrifxado
     password: 258aa2a935358e178557a050972224c88e0cf6a66b760d1ba88e40357e4415d5
-  jpa:
-    show-sql: true
-    database-plataform: org.hibernate.dialect.PostgreSQLDialect
-    generate-dll: true
-    hibernate:
-      dll-auto: none
+jpa:
+  show-sql: true
+  database-plataform: org.hibernate.dialect.PostgreSQLDialect
+  generate-dll: true
+  hibernate:
+    dll-auto: none
     
     
 application:  
