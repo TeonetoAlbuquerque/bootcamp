@@ -6,7 +6,7 @@ server:
 spring:
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: ${JBDC_DATASOURCE_URL}
+    url: ${DATABASE_URL}
 jpa:
   show-sql: true
   database-plataform: org.hibernate.dialect.PostgreSQLDialect
