@@ -9,12 +9,12 @@ spring:
     url: ${JDBC_DATABASE_URL}
     username: ${JDBC_DATABASE_USERNAME}
     password: ${JDBC_DATABASE_PASSWORD}
-jpa:
-  show-sql: true
-  database-plataform: org.hibernate.dialect.PostgreSQLDialect
-  generate-dll: true
-  hibernate:
-    dll-auto: none
+  jpa:
+    show-sql: true
+    database-plataform:org.hibernate.dialect.PostgreSQLDialect
+    generate-dll: true
+    hibernate:
+      dll-auto: none
     
     
 application:  
